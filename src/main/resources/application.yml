@@ -1,0 +1,26 @@
+server:
+  port: 8080
+
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          github:
+            client-id: 581d734f58e6eb3fed59
+            client-secret: 333d1685426e7dfc4e4e5d77d4192cc6e99b7d9f
+#    user:
+#      name: czy
+#      password: czy
+  datasource:
+    username: dev_cloud
+    password: Oc0Nqir76yBWxoKC&=3a
+    url: jdbc:mysql://192.168.20.141:13306/czy?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
+
+  redis:
+    host: 192.168.20.141
+    port: 6379
+    password: bg8TjsqfaNIAxTjStlx7glEbLGxumy
+  application:
+    name: czy
+
