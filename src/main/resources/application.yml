@@ -13,14 +13,14 @@ spring:
 #      name: czy
 #      password: czy
   datasource:
-    username: dev_cloud
-    password: Oc0Nqir76yBWxoKC&=3a
+    username: czy
+    password: 123456
     url: jdbc:mysql://192.168.20.141:13306/czy?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
 
   redis:
     host: 192.168.20.141
     port: 6379
-    password: bg8TjsqfaNIAxTjStlx7glEbLGxumy
+    password: czy
   application:
     name: czy
 
